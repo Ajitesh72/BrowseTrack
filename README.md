@@ -13,3 +13,13 @@ KafkaDrop(GUI for Kafka topics)
 query.js from Elastic search
 
 ![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/be63e351-9e58-4aa4-a1db-c500423dd32d)
+
+# Tech Stack:
+
+- Kafka
+- KafkaDrop
+- Node.js
+- Elastic Search
+- Logger
+- Kibana
+- Docker
