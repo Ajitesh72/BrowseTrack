@@ -9,7 +9,7 @@ const Consumer = kafka.Consumer;
 const client = new kafka.KafkaClient({ kafkaHost: 'localhost:9092' });
 const consumer = new Consumer(
   client,
-  [{ topic: 'test-server', partition: 0 }],
+  [{ topic: 'server-trial', partition: 0 }],
   { autoCommit: true }
 );
 
@@ -21,7 +21,7 @@ async function indexToElasticsearch(message) {
 
     // Indexing the JSON data into Elasticsearch
     const { body: indexResponse } = await esClient.index({
-      index: 'your_index_name', // Specify your Elasticsearch index name
+      index: 'server-trial', // Specify your Elasticsearch index name
       body: jsonData
     });
 

@@ -15,7 +15,7 @@ async function performSearchQuery() {
 
         // Execute the search query
         const searchResponse= await client.search({
-            index: 'your_index_name',  // Specify the index to search
+            index: 'server-trial',  // Specify the index to search
             body: query
         });
 

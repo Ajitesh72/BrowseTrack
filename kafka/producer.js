@@ -6,7 +6,6 @@ const Producer = kafka.Producer;
 const client = new kafka.KafkaClient({ kafkaHost: 'localhost:9092' });
 const producer = new Producer(client);
 
-// Function to publish messages to Kafka
 function publishToKafka(topic, messages) {
   return new Promise((resolve, reject) => {
     producer.send([{ topic, messages }], (err, data) => {
@@ -22,12 +21,10 @@ function publishToKafka(topic, messages) {
 producer.on('ready', async () => {
   console.log('Producer is ready');
 
-  // Reading the CSV file
   const messages = [];
-  fs.createReadStream('../data/CIDDS-001-external-week1.csv')
+  fs.createReadStream('./data/CIDDS-001-external-week1.csv')
     .pipe(csv())
     .on('data', (row) => {
-      // Assuming each row in CSV is a message
       const message = JSON.stringify(row);
       messages.push(message);
     })
@@ -39,7 +36,7 @@ producer.on('ready', async () => {
       for (let i = 0; i < messages.length; i += batchSize) {
         const batchMessages = messages.slice(i, i + batchSize);
         try {
-          await publishToKafka('test-server', batchMessages);
+          await publishToKafka('server-trial', batchMessages);
           console.log(`Published batch ${i / batchSize + 1}/${Math.ceil(messages.length / batchSize)}`);
         } catch (err) {
           console.error('Error publishing batch:', err);
