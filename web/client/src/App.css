@@ -1,0 +1,58 @@
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #000408; /* Change this color to match your design */
+  color: #ffffff; /* Text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 1.2rem;
+}
+
+.dashboard-main {
+  margin-top: 20px;
+}
+
+.dashboard-frame {
+  border: none;
+  width: 100%;
+  height: 800px;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding:1em 2em 1em 2em;
+  border-radius: 2em;
+  background-color: #0026ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.image-hai{
+  height: 3em;
+  width: 3em;
+}
+.image-hai-1{
+  height: 1.5em;
+  width: 1.5em;
+}
