@@ -23,6 +23,11 @@ To get started with this project, follow these steps:
 3. Create index patterns and visualizations in Kibana.
 4. Build interactive dashboards to analyze network traffic.
    
+<h1> Dashboard (Kibbana) </h1>
+
+![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/810936da-90f2-496a-8eb9-a6f8b548fa89)
+
+
 <h1> Visualizations(Kibbana) </h1>
 
 ![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/5f029edb-dfe0-4a7e-9e54-d181b02db50a)
