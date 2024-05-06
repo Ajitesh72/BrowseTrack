@@ -36,6 +36,8 @@ To get started with this project, follow these steps:
 
 ![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/61c24040-3a2c-43f4-9ced-616e019a0d23)
 
+![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/6ca1f267-8e50-420c-be26-5b508fd9322a)
+
 <h1> KafkaDrop(GUI for Kafka topics) </h1>
 
 ![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/b938705b-6fae-448f-9835-2f446bb66ae8)
@@ -43,6 +45,9 @@ To get started with this project, follow these steps:
 <h1> query.js from Elastic search </h1>
 
 ![image](https://github.com/Ajitesh72/BrowseTrack/assets/95878363/be63e351-9e58-4aa4-a1db-c500423dd32d)
+
+
+
 
 # Tech Stack:
 
